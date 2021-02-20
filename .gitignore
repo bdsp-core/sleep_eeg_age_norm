@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# backup files
+ .mypy_cache/
+*~
+*.swp
+ *old*
+* notupload*
+*.icloud
+*DS_Store
