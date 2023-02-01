@@ -49,7 +49,7 @@ with open(f'bandpowers_age_norm_{bp_type}.pickle', 'rb') as f:
 	3. band powers that generate the table, numpy.ndarray, shape = (#sample,)
 	4. subject IDs that generate the table, numpy.ndarray, shape = (#sample,)
 
-Note, delta, theta, and sigma band powers are from the central channel, and alpha is from the occipital channel.
+Note, delta, theta, and sigma band powers are from the central channel, and alpha is from the occipital channel.\
 Note, `bp_type` can also be 'absolute' for absolute band powers, but it may not be very generalizable.
 
 Example output:
@@ -71,7 +71,7 @@ with open(f'spindle_age_norm{suffix}.pickle', 'rb') as f:
 Note, spindles are from N2 stage only.
 
 Example output:
-![example_spectrum](website-images/example-spindle.png)
+![example_spindle](website-images/example-spindle.png)
 
 # Code for extracting features from sleep EEG
 
